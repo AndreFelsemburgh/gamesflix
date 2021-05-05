@@ -1,0 +1,40 @@
+:root {
+    --cor1: #2fff5c;
+    --cor2: #0b4017 /*302828*/ ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--cor1);
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #dfdfdf;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
