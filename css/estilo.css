@@ -1,6 +1,6 @@
 :root {
     --cor1: #2fff5c;
-    --cor2: #0b4017 /*302828*/ ;
+    --cor2: #003d2e /*302828*/ ;
 }
 
 * {
@@ -12,6 +12,7 @@
 body {
     background-color: var(--cor2);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
 }
 
 header .container {
@@ -37,4 +38,11 @@ header nav a {
 
 header nav a:hover {
     color: #ffffff;
+}
+
+main .jogo-principal {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('../imagens/banner6.jfif');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
 }
