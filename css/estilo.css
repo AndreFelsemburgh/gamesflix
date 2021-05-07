@@ -119,3 +119,13 @@ main .jogo-principal {
 .container {
     margin-left: 20px;
 }
+
+.carrosel-jogos {
+    margin-top: 5px;
+}
+
+.box-jogos {
+   width: 50%;
+   height: 50%;
+   display: block;
+}
