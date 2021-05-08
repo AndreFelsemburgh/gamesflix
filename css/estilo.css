@@ -1,6 +1,6 @@
 :root {
     --cor1: #025006/*2fff5c*/;
-    --cor2: #ffffff; /*003d2e*/ /*302828*/ ;
+    --cor2: #e0dccf /*302828*/ ;
 }
 
 * {
@@ -126,7 +126,7 @@ main .jogo-principal {
 }
 
 .box-jogos {
-   width: 50%;
-   height: 50%;
+   width: 100%;
+   height: 100%;
    display: block;
 }
