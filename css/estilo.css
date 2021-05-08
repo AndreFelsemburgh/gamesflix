@@ -1,6 +1,6 @@
 :root {
-    --cor1: #2fff5c;
-    --cor2: #003d2e /*302828*/ ;
+    --cor1: #025006/*2fff5c*/;
+    --cor2: #ffffff; /*003d2e*/ /*302828*/ ;
 }
 
 * {
@@ -34,15 +34,16 @@ header .logo {
 header nav a {
     text-decoration: none;
     margin-right: 10px;
-    color: #dfdfdf;
+    color: #059e5e;
+    font-weight: 500;
 }
 
 header nav a:hover {
-    color: #ffffff;
+    color: #025006;
 }
 
 main .jogo-principal {
-    background: linear-gradient(rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%), url('../imagens/banner6.jfif');
+    background: linear-gradient(to left, rgba(0, 0, 0,.1), rgba(0,0,0,0.5)100%),  url('../imagens/banner5.jfif');
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -61,7 +62,7 @@ main .jogo-principal {
     margin-top: 10%;
     font-size: 50px;
     font-family: impact, arial, sans-serif;
-    letter-spacing: 5px;    
+    letter-spacing: 7px;    
 }
 
 .jogo-principal .menor {
