@@ -96,7 +96,8 @@ main .jogo-principal {
     margin-bottom: 90px;
 }
 
-.botao, .informacao {
+/*.botao, .informacao*/
+.jogo-principal button {
     padding: 10px 20px;
     border: none;
     color: #000;
@@ -107,12 +108,13 @@ main .jogo-principal {
     transition: .5s ease all;
 }
 
-.botao:hover, .informacao:hover {
+.jogo-principal button:hover/*.botao:hover, .informacao:hover*/ {
     color: #fff;
     background-color: #000;
 }
 
-.botao i, .informacao i {
+/* .botao i, .informacao i */
+.jogo-principal button i {
     font-size: 18px;
     margin-right: 5px;
 }
