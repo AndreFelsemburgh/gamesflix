@@ -51,7 +51,16 @@
     <!-- Responsividade -->
     <link rel="stylesheet" href="css/responsivel.css">
     <style>
-        @media screen and (max-width: 700px) {
+
+        @media screen and (max-width: 399px) {
+            main .jogo-principal {
+        background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banner-tomb_400.jpg');
+    }
+
+        }
+
+
+        @media screen and (min-width: 400px) {
 
     main .jogo-principal {
         background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banner-tomb_m.jpg');
@@ -67,6 +76,13 @@
             letter-spacing: 1.5px;
         }
     }    
+
+    @media screen and (min-width: 768px) {
+
+    main .jogo-principal {
+    background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banner-tomb.jpg');
+}
+
     </style>
 
     <title>Gamesflix</title>
