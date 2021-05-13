@@ -43,7 +43,7 @@ header nav a:hover {
 }
 
 main .jogo-principal {
-    background: linear-gradient(to left, rgba(0, 0, 0,.1), rgba(0,0,0,0.5)100%),  url('../imagens/banner5.jfif');
+    background: linear-gradient(to left, rgba(0, 0, 0,.1), rgba(0,0,0,0.5)100%),  url('../imagens/banner-cod.jpg');
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -86,7 +86,7 @@ main .jogo-principal {
     font-size: 40px;
     background-color: #ffffff2d;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: #ffffff;
     font-weight: 900;
 }
