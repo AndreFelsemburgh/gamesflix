@@ -10,13 +10,9 @@
         font-size: 2rem;
     }
 
-    main .jogo-principal {
-        background: linear-gradient(to left, rgba(0, 0, 0,.1), rgba(0,0,0,0.5)100%),  url('../imagens/banners/mobile/banner-cod_m.jpg');
-    }
     
-
     .jogo-principal .titulo {
-        font-size: 2rem;
+        font-size: 40px;
     }
 
     .jogo-principal .menor {
@@ -25,12 +21,12 @@
     }
     
     .jogo-principal .complemento-titulo {
-        font-size: 1.7rem;
-        margin-left: 15px;
+        font-size: 25px;
+        margin-left: 45px;
     }
 
     .jogo-principal .subtitulo {
-        font-size: 1.8rem;
+        font-size: 35px;
         font-weight: 900;
         padding: 0 11px;
     }
@@ -43,7 +39,6 @@
         width: 80%;
     }
     
-
    /* .botao */
    .jogo-principal button  {
         margin-top: 5px;
@@ -53,8 +48,10 @@
 
 }
 
-@media screen and (min-width:100px) {
+
+@media screen and (min-width:1000px) {
     .sinopse {
-        width: 60%;
+        width: 90%;
     }
 }
+

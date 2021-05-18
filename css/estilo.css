@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: callofduty;
+    src: url('../fonts/Call_Of_Duty.otf') format("opentype");
+}
+
 body {
     background-color: var(--cor2);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -43,11 +48,10 @@ header nav a:hover {
 }
 
 main .jogo-principal {
-    background: linear-gradient(to left, rgba(0, 0, 0,.1), rgba(0,0,0,0.5)100%),  url('../imagens/banner-cod.jpg');
+    background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banner-cod.jpg');
     background-size: cover;
     height: 500px;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +65,7 @@ main .jogo-principal {
 .jogo-principal .titulo {
     margin-top: 10%;
     font-size: 50px;
-    font-family: impact, arial, sans-serif;
+    font-family: callofduty;
     letter-spacing: 7px;    
 }
 
