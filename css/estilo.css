@@ -123,7 +123,7 @@ main .jogo-principal {
     background-color: #fff;
     cursor: pointer;
     margin-right: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
     transition: .5s ease all;
 }
 
@@ -232,3 +232,4 @@ main .jogo-principal {
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);   
 }
+
