@@ -1,3 +1,6 @@
+/* 1rem = 10px */ 
+
+
 :root {
     --cor1: #025006/*2fff5c*/;
     --cor2: #e0dccf /*302828*/ ;
@@ -30,7 +33,7 @@ header .container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 header .logo {
@@ -38,12 +41,12 @@ header .logo {
     font-weight: 900;
     font-size: 3.5rem;
     color: var(--cor1);
-    margin-left: 5px;
+    margin-left: 0.5rem;
 }
 
 header nav a {
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0.5rem;
     color: #059e5e;
     font-weight: 500;
 }
@@ -53,9 +56,10 @@ header nav a:hover {
 }
 
 main .jogo-principal {
-    background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banner-cod.jpg');
+    background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0,0,0,0.5)100%),  url('../imagens/banners/banner-cod.jpg');
     background-size: cover;
-    height: 500px;
+    background-position: top right;
+    height: 50rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -69,35 +73,40 @@ main .jogo-principal {
 
 .jogo-principal .titulo {
     margin-top: 10%;
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: callofduty;
-    letter-spacing: 7px;    
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 .jogo-principal .menor {
     font-size: 2rem;
-    margin: 0 -17px;
+    margin: 0 -1.7rem;
     display: inline-block;
     position: relative;
-    top: -12px;
+    top: -1.2rem;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 .jogo-principal .complemento-titulo {
     font-family: Verdana, Arial, sans-serif;
     font-size: 3.5rem;
-    margin-top: -7px;
+    margin-top: -1.5rem;
     display: block;
-    margin-left: 30px;
+    margin-left: 5rem;
+    text-transform: uppercase;
 }
 
 .jogo-principal .subtitulo {
-    font-size: 40px;
+    font-size: 5rem;
     background-color: #ffffff2d;
     display: inline-block;
-    padding: 5px 15px;
+    padding: 0.5rem;
     color: #ffffff;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .jogo-principal .sinopse {
