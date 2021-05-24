@@ -95,17 +95,15 @@ main .jogo-principal {
     font-size: 3.5rem;
     margin-top: -1.5rem;
     display: block;
-    margin-left: 5rem;
+    margin-left: 6rem;
     text-transform: uppercase;
 }
 
 .jogo-principal .subtitulo {
-    font-size: 5rem;
-    background-color: #ffffff2d;
+    font-size: 5.1rem;
     display: inline-block;
-    padding: 0.5rem;
     color: #ffffff;
-    font-weight: 900;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
