@@ -110,8 +110,8 @@ main .jogo-principal {
 }
 
 .jogo-principal .sinopse {
-    margin-top: 10px;
-    margin-bottom: 90px;
+    margin-top: 1rem;
+    margin-bottom: 9rem;
     font-size: 1.6rem;
 }
 
