@@ -9,6 +9,7 @@
     <!-- owl css -->
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl/modal.css">
     <title>Gamesflix</title>
 </head>
 <body>
@@ -34,11 +35,8 @@
                 </p>
                 <div class="buttons">
                     <a href="trailer-cod.html" target="_blank" rel="next">
-                    <button role="button" class="botao">
-                        <i class="far fa-play-circle"></i>
-                        VER TRAILHER
-                    </button>
                     </a>
+                    <button id="openModal" class="botao" data-video="aTS9n_m7TW0">VER TRAILHER</button>
                     <a href="info-cod.html" target="_blank" rel="next">  
                         <button role="button" class="botao">
                             <i class="fas fa-info-circle"></i>
@@ -46,6 +44,14 @@
                         </button>
                     </a>
                     
+                </div>
+
+                <!-- Modal Structure -->
+                <div id="videoModal" class="videomodal" style="display:none;">
+                    <div class="modal-content">
+                        <span class="close" id="closeModal">&times;</span>
+                        <iframe id="youtubeVideo" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,5 +103,6 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/streamHandler.js"></script>
 </body>
 </html>
